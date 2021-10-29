@@ -7,8 +7,7 @@ export default class Quotes extends Component {
         super(props)
 
        this.state = {
-            posts: [],
-            isloading: true
+            posts: []
             
        }
 }
@@ -45,7 +44,6 @@ render() {
                         <div className="quotes-wrapper-contents"key={post.id}> 
                             <h2 className="quotes-wrapper__title">{post.title}</h2>
                             <div className="quotes-wrapper__content">{post.content}</div>
-                            {/* <a onClick={this.handleDeleteQuote} className='quote-delete'>Delete</a> */}
                         </div>
                          
                         ))}

@@ -1,5 +1,4 @@
-# React/Redux/Router Starter Project
+# Capstone Project
 
-> Provided for the students of the [Bottega Code School](https://bottega.tech/)
-
-*Fork from [es6-webpack2-starter](https://github.com/micooz/es6-webpack2-starter)*
+Home page contain a create your own page that will
+direct you to submit your own personal quote...
