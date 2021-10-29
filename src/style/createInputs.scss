@@ -1,0 +1,38 @@
+.create-quotes-wrapper {
+    // justify-content: center;
+    // align-items: center;
+
+    form {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 300px;
+        grid-gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        
+
+        .input-title {
+            height: 40px;
+            @include place-holders()   
+        }
+
+        .input-content{
+            height: 100px;
+            @include place-holders()
+        }
+
+            .submit-button {
+                background-color: teal;
+                width: 100px;
+                height: 40px;
+                border-color: white;
+                border-radius: 10px;
+                color: white;
+                font-size: 13px;
+                justify-self: center;
+            }
+    }
+  
+      
+}

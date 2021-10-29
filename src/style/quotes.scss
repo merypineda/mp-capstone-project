@@ -1,0 +1,32 @@
+.quotes-wrapper {
+  
+    .quotes-wrapper-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    align-items: center;
+    grid-row-gap: 15px;
+    padding: 100px 300px;
+   
+
+    .quotes-wrapper__title {
+      @include title()
+    }
+    
+    .quotes-wrapper-contents {
+        @include box()
+    }
+    
+        .quotes-wrapper__content {
+            font-size: 1.5em;
+
+             a {
+                display: flex;
+                justify-self: end;
+                align-self: flex-end;
+            }
+
+        }
+   } 
+
+}
+

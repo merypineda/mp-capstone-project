@@ -1,0 +1,46 @@
+html {
+    font-size: 62.5%; // 1rem is 10px
+   h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 3em;
+
+   }
+
+
+  
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Zen Antique Soft', serif;;
+}
+
+body {
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    font-weight: normal;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
+}
+
+// .app {
+//     // margin-top: 2rem;
+//     // display: grid;
+//     // justify-items: center;
+// }
+@import "./mediaQueries.scss";
+@import "./mixins.scss";
+@import "./navbar.scss";
+@import "./quotes.scss";
+@import "./createInputs.scss";
+@import "./home.scss"
+

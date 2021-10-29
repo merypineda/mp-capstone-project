@@ -1,0 +1,25 @@
+.navlinks-wrapper {
+    // width: 1440px;
+    height: 50px;
+    background-color: teal;
+    display: grid;
+  
+
+    .navbar-links {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-self: center;
+        align-items: center;
+        font-weight: 800;
+        font-size: 1.7em;
+      a {
+          text-decoration-line: none;
+          color: white;
+      }
+
+      a:hover {
+          color: darkgrey;
+      }
+
+    }
+}
