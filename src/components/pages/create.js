@@ -86,7 +86,7 @@ export default class Create extends Component {
                         required
                         value={this.state.content}
                         onChange={this.handleOnChangeContent}    
-                />
+                    />
 
                     <button className="submit-button" type="submit" >Submit Quote</button>
 

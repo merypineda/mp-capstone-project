@@ -17,7 +17,6 @@ export default class Quotes extends Component {
 getAllQuotes() {
    axios.get('https://api-meryp.herokuapp.com/posts')
     .then(response => {
-        console.log("response", response.data);
         this.setState({
             posts: response.data 
          })  
