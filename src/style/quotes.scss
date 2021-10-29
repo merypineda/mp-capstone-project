@@ -9,7 +9,7 @@
    
 
     .quotes-wrapper__title {
-      @include title()
+        @include title()
     }
     
     .quotes-wrapper-contents {
